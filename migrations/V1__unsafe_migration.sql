@@ -1,0 +1,7 @@
+ALTER TABLE users DROP COLUMN email;
+
+ALTER TABLE foos RENAME COLUMN id pk;
+
+THIS IS NOT sql BUT whocares;
+
+ALTER TABLE foos ALTER COLUMN id TYPE bigint;
